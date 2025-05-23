@@ -136,3 +136,56 @@ dist
 .pnp.*
 
 .DS_Store
+
+# dotenv environment variables
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Parcel
+.cache
+.parcel-cache
+
+# Next.js
+.next
+out
+
+# Nuxt.js
+.nuxt
+dist
+
+# Gatsby
+.cache/
+# public  # Uncomment this line if your project does NOT use Next.js
+
+# VuePress
+.vuepress/dist
+.temp
+.cache
+
+# VitePress
+**/.vitepress/dist
+**/.vitepress/cache
+
+# Docusaurus
+.docusaurus
+
+# Serverless
+.serverless/
+
+# FuseBox
+.fusebox/
+
+# DynamoDB Local
+.dynamodb/
+
+# TernJS
+.tern-port
+
+# VSCode Test
+.vscode-test
+
+# macOS
+.DS_Store
